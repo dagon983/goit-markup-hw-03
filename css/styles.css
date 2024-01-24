@@ -6,6 +6,31 @@ body {
 
 ul {
     list-style-type: none;
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+img {
+    display: block;
+}
+
+button {
+    cursor: pointer;
+}
+
+.container {
+    max-width: 1158px;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .logo {
@@ -30,6 +55,8 @@ ul {
     font-weight: 500;
     line-height: 1.50;
     letter-spacing: 0.02em;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .navigation .nav-link:hover,
@@ -63,21 +90,37 @@ ul {
     background-color: #2E2F42;
 }
 
+.test {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .main-title {
     text-align: center;
     color: #FFFFFF;
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
+    margin-bottom: 48px;
+    padding: 188px 0 0 0;
+    width: 496px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .main-first-btn {
-    cursor: pointer;
     background-color: #4D5AE5;
     color: #FFFFFF;
     font-weight: 500;
     letter-spacing: 0.04em;
     line-height: 1.5;
+    margin: 0 0 188px 0;
+    padding: 16px 32px;
+    width: 169px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border: 0;
 }
 
 .main-first-btn:hover,
@@ -85,12 +128,23 @@ ul {
     background-color: #404BBF;
 }
 
+.main-second-list {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.second-list-table {
+    display: flex;
+    gap: 24px;
+}
+
 .second-list-title {
     color: #2E2F42;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
-    letter-spacing: 0.02em;    
+    letter-spacing: 0.02em;
+    margin-bottom: 8px; 
 }
 
 .second-list-text {
@@ -99,12 +153,24 @@ ul {
     letter-spacing: 0.02em;
 }
 
+.third-list-table {
+    display: flex;
+    gap: 24px;
+    padding-bottom: 120px;
+}
+
 .main-third {
     background-color: #F4F4FD;
 }
 
 .third-list-items {
     background-color: #FFFFFF;
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.third-list-img {
+    margin-bottom: 32px;
 }
 
 .third-title {
@@ -114,6 +180,8 @@ ul {
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
+    padding-top: 120px;
+    margin-bottom: 72px;
 }
 
 .third-list-title {
@@ -123,6 +191,7 @@ ul {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
 }
 
 .third-list-text {
@@ -130,6 +199,18 @@ ul {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    padding-bottom: 32px;
+}
+
+.fourth-list-table {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    padding-bottom: 120px;
+}
+
+.fourth-list-items {
+    /* border: 1px solid #E7E9FC; */
 }
 
 .fourth-title {
@@ -138,6 +219,13 @@ ul {
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
+    padding-top: 120px;
+    margin-bottom: 72px;
+}
+
+.fourth-list-img {
+    margin-bottom: 32px;
+    margin-top: 48px;
 }
 
 .fourth-list-title {
@@ -147,12 +235,16 @@ ul {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
+    padding-left: 16px;
 }
 
 .fourth-list-text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    padding-bottom: 32px;
+    padding-left: 16px;
 }
 
 .footer {
@@ -168,6 +260,9 @@ ul {
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
+    padding-top: 100px;
+    display: inline-block;
+    
 }
 
 .logo-footer .logo-part {
@@ -179,4 +274,7 @@ ul {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    padding-bottom: 100px;
+    margin-top: 17.5px;
+    width: 264px;
 }
