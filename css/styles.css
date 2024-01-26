@@ -33,6 +33,20 @@ button {
     margin-right: auto;
 }
 
+.section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+header {
+    border-bottom: 1px solid #E7E9FC;
+}
+
+.header {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
 .logo {
     color: #4D5AE5;
     font-family: 'Raleway', sans-serif;
@@ -42,6 +56,7 @@ button {
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
+    margin-right: 36px;
 }
 
 .logo-part {
@@ -86,14 +101,29 @@ button {
     color: #404BBF;
 }
 
+.header-container {
+    display: flex;
+}
+
+.nav-container {
+    display: flex;
+    gap: 40px;
+    margin-right: 332px;
+}
+
+.contacts-container {
+    display: flex;
+    gap: 40px;
+}
+
 .main-first {
     background-color: #2E2F42;
 }
 
-.test {
+.main-container {
     display: flex;
-    flex-direction: column;
     align-items: center;
+    flex-direction: column;
 }
 
 .main-title {
@@ -103,7 +133,7 @@ button {
     line-height: 1.07;
     letter-spacing: 0.02em;
     margin-bottom: 48px;
-    padding: 188px 0 0 0;
+    padding-top: 68px;
     width: 496px;
     margin-left: auto;
     margin-right: auto;
@@ -115,12 +145,12 @@ button {
     font-weight: 500;
     letter-spacing: 0.04em;
     line-height: 1.5;
-    margin: 0 0 188px 0;
     padding: 16px 32px;
-    width: 169px;
+    max-width: 169px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     border: 0;
+    white-space: nowrap;
 }
 
 .main-first-btn:hover,
@@ -128,14 +158,13 @@ button {
     background-color: #404BBF;
 }
 
-.main-second-list {
-    padding-top: 120px;
-    padding-bottom: 120px;
-}
-
 .second-list-table {
     display: flex;
     gap: 24px;
+}
+
+.second-list-items {
+    width: calc((100% - 72px) / 4) 
 }
 
 .second-list-title {
@@ -156,7 +185,6 @@ button {
 .third-list-table {
     display: flex;
     gap: 24px;
-    padding-bottom: 120px;
 }
 
 .main-third {
@@ -180,7 +208,6 @@ button {
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
-    padding-top: 120px;
     margin-bottom: 72px;
 }
 
@@ -206,11 +233,12 @@ button {
     display: flex;
     flex-wrap: wrap;
     column-gap: 24px;
-    padding-bottom: 120px;
+    row-gap: 48px;
 }
 
-.fourth-list-items {
-    /* border: 1px solid #E7E9FC; */
+.test-border {
+    border: 1px solid #E7E9FC;
+    border-top: none;
 }
 
 .fourth-title {
@@ -219,13 +247,7 @@ button {
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
-    padding-top: 120px;
     margin-bottom: 72px;
-}
-
-.fourth-list-img {
-    margin-bottom: 32px;
-    margin-top: 48px;
 }
 
 .fourth-list-title {
@@ -237,6 +259,7 @@ button {
     letter-spacing: 0.02em;
     margin-bottom: 8px;
     padding-left: 16px;
+    padding-top: 32px;
 }
 
 .fourth-list-text {
