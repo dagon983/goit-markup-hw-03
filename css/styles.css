@@ -251,9 +251,10 @@ header {
     row-gap: 48px;
 }
 
-.test-border {
+.border {
     border: 1px solid #E7E9FC;
     border-top: none;
+    padding: 32px 16px;
 }
 
 .fourth-title {
@@ -273,20 +274,17 @@ header {
     line-height: 1.2;
     letter-spacing: 0.02em;
     margin-bottom: 8px;
-    padding-left: 16px;
-    padding-top: 32px;
 }
 
 .fourth-list-text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    padding-bottom: 32px;
-    padding-left: 16px;
 }
 
 .footer {
     background-color: #2E2F42;
+    padding: 100px 0;
 }
 
 .logo-footer {
@@ -298,9 +296,8 @@ header {
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
-    padding-top: 100px;
+    margin-bottom: 16px;
     display: inline-block;
-    
 }
 
 .logo-footer .logo-part {
@@ -312,7 +309,5 @@ header {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    padding-bottom: 100px;
-    margin-top: 17.5px;
     width: 264px;
 }
