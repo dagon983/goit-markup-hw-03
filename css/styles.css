@@ -57,7 +57,7 @@ header {
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
-    margin-right: 36px;
+    margin-right: 76px;
 }
 
 .logo-part {
@@ -104,6 +104,7 @@ header {
 
 .header-container {
     display: flex;
+    align-items: center;
 }
 
 .nav-container {
